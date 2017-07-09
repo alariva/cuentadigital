@@ -8,6 +8,16 @@
     "require-dev": {
         "phpunit/phpunit": "^6.2"
     },
+    "autoload": {
+        "psr-4": {
+            "Alariva\\Cuentadigital\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alariva\\Cuentadigital\\Tests\\": "tests/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
