@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<REQUEST>
+<ACTION>INVOICE_GENERATED</ACTION>
+<INVOICE>
+<MERCHANTID>0000</MERCHANTID> Su numero de CuentaDigital
+<IPADDRESS>20.117.182.95</IPADDRESS> IP del cliente
+<PAYMENTCODE1>0190000000079</PAYMENTCODE1> Numero de codigo de barras
+<PAYMENTCODE2>Codigo LinkPagos 0000000000</PAYMENTCODE2> Codigo de pago para la red LinkPagos. (solo si esta habilitado)
+<PAYMENTCODE3></PAYMENTCODE3> Campo reservado para futuros codigos de pago
+<PAYMENTCODE4></PAYMENTCODE4> Campo reservado para futuros codigos de pago
+<PAYMENTCODE5></PAYMENTCODE5> Campo reservado para futuros codigos de pago
+<PAYMENTCODE6></PAYMENTCODE6> Campo reservado para futuros codigos de pago
+<PAYMENTCODE7></PAYMENTCODE7> Campo reservado para futuros codigos de pago
+<PAYMENTCODE8></PAYMENTCODE8> Campo reservado para futuros codigos de pago
+<PAYMENTCODE9></PAYMENTCODE9> Campo reservado para futuros codigos de pago
+<PAYMENTCODE10></PAYMENTCODE10> Campo reservado para futuros codigos de pago
+<BARCODEIMAGE>https://www.cuentadigital.com/barras.php?codigo=01900000000079</BARCODEIMAGE> URL de la imagen del codigo de barras
+<BARCODEBASE64>R0lGODdh5gA0AIAAAAAAAP///ywAAAAA5gA0AAAC/oyPqcvtD6OctNqLs9Yg9G58gPgdpGeOpqeC
+aMiW7iircNjG65ye8m7T0V6bojHzgw2XwBKOx7yhmLPcUEoNOolLK1f3FB7HZEly2sop1WD0FuoN
+n7BW7VfuhVd95b4/cebDxhe29tY01eO2Itd2iPejpxj1V0kWKDQoVrjIY5jYeMVVB8WYGYkISWTJ
+uoHZdUgpSvhFNel4O3t3miip6tIafPGaFjtoJ4v4RmqaVUrHZ7y3KVxNQUybjaz5uVzjKaYLDtub
+ygtsne6ATa0tOR6eaxeK3Fxc/vmrvr8O2qkpa9ujTqO+2TOo5GA8X+f4OVTALlnAd83i0RvHLCG0
+/oXmyKF7yC8iwGMUsVgMNw/ls4Ic8zUECVKkNJbdKtq6qHCOv2m2GHqEGXPnS4KcsiljqZMnLozR
+amm59xIkjZlOvR01eVNlzqU583SEKtUh1ZJLuRFUqgunRqReXf4Mu2/s1bIDm6pFynVjz6+04E4V
++pYo3V12terNyxaVW7B+08mtWbTdUbQpne3oqniRvsZ/Z0okOZciZaaaheqbuZmzsMeCxZktbPmw
+OMz4SgdW3Yq1u9CT5ZFOShgs6qG4WeluJ5Dwydh4Z+tta5txceOApe+GXHVnxub1nmdOKn16peMT
+edccvdV54trg+4r3Qx40dtG+03dfzy71e/jV/o2Wn9/bXeitxRN07VGzXx/xWQXgefXJdl+B3zkS
+XoKX9CfZf60FaBh3K0nIHoXuWXjEgjRt6KCAD5rW0HC3kVgihp8xiOJZKw7I4k8uVghjESZO06CN
+Kqr7uiEiItijjzKORKNRKXaIY13CZadfkq4s6ZkiQcK2XZTBNeUTj1Zi8KOWNXKJkIeXeRfiLGKO
+CWeccs5JZ5123olnnnruyWef04liQVQ9ACOoKassEMQf6BCa6KKANGqmm4QicAUNNgCam6HX9CMF
+6yhWqmkZy1SkHaUQgfDhHU6AQ2A1jt5QKQtPAOlJo08Nauahj9K6BSCXwVMKq2utCZimk+6Sq6mp
+rV7aqanwmNTpp6Ha9KuuymFFagyoNrstrMzS4Suy1CnrBjeLJgMtsuemBFG45UT17KzX1hItpRIZ
+a6ilrrrbq6rk1mXvsfWm2+6/tRncbKvpkvBtu6ki7G6yoLAB7baoApzwKhbjYGy3xfZLrK4rzfuC
+tP567DG5q916McopvMxwpE8xCjMnshbVcKF73POvvm14S06ujLKKaZ/C+om0VEUnzXTTTpNRAAA7
+</BARCODEBASE64> La imagen del codigo de barras codificada en base24
+<INVOICEURL>https://www.CuentaDigital.com/verfactura.php?id=01900000000079</INVOICEURL> URL donde se encuentra el cupon de pago
+<SITE>example.com</SITE> Su Website
+<MERCHANTREFERENCE>example98349384</MERCHANTREFERENCE> Su referencia de pago
+<CONCEPT></CONCEPT> Concepto de compra
+<CURR>ARS</CURR> Moneda
+<AMOUNT>10000</AMOUNT> Monto a pagar (ultimas 2 cifras son decimales, ejemplo: $100.50 son 10050, 100.00 son 10000
+<DATE></DATE> Fecha de generacion
+<DUEDATE></DUEDATE> Fecha de vencimiento
+<EMAILTO></EMAILTO> Enviado hacia un email.
+<COUNTRY>AR</COUNTRY> Pais (codigos iso)
+<LANG>es</LANG> Idioma (codigos iso)
+</INVOICE>
+</REQUEST>

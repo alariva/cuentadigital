@@ -20,6 +20,15 @@ class Cuentadigital
     protected $concept;
 
     protected $code;
+    
+    private $client;
+
+    public function __construct($client = null)
+    {
+        $this->client = $client;
+    }
+    
+    protected $currency = 'ARS';
 
     public function setId($id)
     {
@@ -63,6 +72,13 @@ class Cuentadigital
         return $this;
     }
 
+    public function setCurrency($currency)
+    {
+        $this->currency = $currency;
+
+        return $this;
+    }
+
     public function query()
     {
         if ($this->id) {
@@ -81,6 +97,14 @@ class Cuentadigital
             $this->params['concepto'] = $this->concept;
         }
 
+        if ($this->code) {
+            $this->params['codigo'] = $this->code;
+        }
+
+        if ($this->currency) {
+            $this->params['moneda'] = $this->currency;
+        }
+
         $this->params['xml'] = 1;
 
         return $this->params;
@@ -90,9 +114,12 @@ class Cuentadigital
     {
         $query = $this->query();
 
-        $client = new Client(['base_uri' => 'https://www.cuentadigital.com/', 'query' => $query]);
+        if(!$this->client)
+        {
+            $client = new Client(['base_uri' => 'https://www.cuentadigital.com/', 'query' => $query]);
+        }
 
-        $response = $client->request('GET', 'api.php', $query);
+        $response = $this->client->request('GET', 'api.php', $query);
 
         $contents =  $response->getbody()->getContents();
 
