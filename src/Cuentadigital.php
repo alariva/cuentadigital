@@ -116,7 +116,7 @@ class Cuentadigital
 
         if(!$this->client)
         {
-            $client = new Client(['base_uri' => 'https://www.cuentadigital.com/', 'query' => $query]);
+            $this->client = new Client(['base_uri' => 'https://www.cuentadigital.com/', 'query' => $query]);
         }
 
         $response = $this->client->request('GET', 'api.php', $query);
